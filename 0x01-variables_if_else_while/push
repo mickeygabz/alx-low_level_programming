@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "advanced,if else statements,putchar(),printing combos"
+git push -u origin main
