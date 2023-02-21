@@ -19,14 +19,14 @@ int main(void)
 	b = 2;
 	count = 2;
 
-	printf("%d, %d", a, b);
+	printf("%ld, %ld", a, b);
 
 	while (count <= 98)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf(", %d", c);
+		printf(", %ld", c);
 		count++;
 	}
 	printf("\n");
