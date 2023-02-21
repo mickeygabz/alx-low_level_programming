@@ -21,7 +21,7 @@ int main(void)
 
 	printf("%ld, %ld", a, b);
 
-	while (count <= 98)
+	while (count < 98)
 	{
 		c = a + b;
 		a = b;
