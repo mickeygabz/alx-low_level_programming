@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	unsigned long long int a;
+	unsigned long int a;
 
-	unsigned long long int b;
+	unsigned long int b;
 
-	unsigned long long int c;
+	unsigned long int c;
 
 	int count;
 
@@ -19,14 +19,14 @@ int main(void)
 	b = 2;
 	count = 2;
 
-	printf("%llu, %llu", a, b);
+	printf("%lu, %lu", a, b);
 
 	while (count < 98)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf(", %llu", c);
+		printf(", %lu", c);
 		count++;
 	}
 	printf("\n");
