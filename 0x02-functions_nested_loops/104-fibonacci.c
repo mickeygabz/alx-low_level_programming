@@ -19,7 +19,7 @@ int main(void)
 	b = 2;
 	count = 2;
 
-	printf("%lu, %llu", a, b);
+	printf("%llu, %llu", a, b);
 
 	while (count < 98)
 	{
