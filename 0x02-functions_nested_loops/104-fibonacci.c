@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	int a;
+	long a;
 
-	int b;
+	long b;
 
-	int c;
+	long c;
 
 	int count;
 
